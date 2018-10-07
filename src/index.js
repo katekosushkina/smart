@@ -33,10 +33,6 @@ class SmartCalculator {
     this.value = eval(this.initialValue);
     return this;
   }
-  
-  valueOf() {
-    return this.value;;
-  }
 }
 
 module.exports = SmartCalculator;
